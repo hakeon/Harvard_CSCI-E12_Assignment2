@@ -9,7 +9,7 @@ html {
 	background-color: #00207A;
 	width: 80%;
 	height: 125px;
-	margin-left: 9%;
+	margin-left: 10%;
 }
 
 #logo {	
@@ -30,4 +30,27 @@ html {
 	color: white;
 	font-style: italic;
 	margin-left: 5px;
+}
+
+#feed {
+	width: 79.75%;
+	margin-left: 10%;
+	padding: 1px;
+	height: 1000px;
+	background-color: white;
+}
+
+.newsHeadline {
+	width: 98%;
+	padding-left: 1px;
+	color: #ffffff;
+	background-color: #a41717;
+	margin-left: 10px;
+	margin-bottom: 0;
+}
+
+.dateline {
+	margin-top: 2px;
+	margin-left: 10px;
+	font-style: italic;
 }
