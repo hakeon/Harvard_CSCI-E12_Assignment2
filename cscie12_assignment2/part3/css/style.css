@@ -3,17 +3,24 @@ jackson, william
 CSCI E-15 Assignment2, part3*/
 
 #header {
-	width: 100%;
-	margin-left: 5%;
+	float: right;
+	margin-right: 15%;
+	background-color: fuchsia;
 }
 
 #mainMenu {
-	margin-left: 2.5%;
+	width: 75%;
+	float: right;
+	margin-right: 12%;
 }
 
 .inlineList {
 	display: inline;
 	margin: 0.5%;
+}
+
+hr {
+	width: 75%
 }
 
 #sideMenu {
@@ -25,11 +32,21 @@ CSCI E-15 Assignment2, part3*/
 
 #breadcrumbs {
 	display: inline;
-	clear: right;
+	float: right;
+	clear: left;
+	background-color: green;
 }
 
 #content {
 	width: 60%;
 	float: right;
+	clear: right;
 	background-color: aqua;
+}
+
+#address {
+	float: left;
+	clear: left;
+	margin-top: 17.5%;
+	background-color: gray
 }
