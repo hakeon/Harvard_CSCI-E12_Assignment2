@@ -1,0 +1,35 @@
+/*style.css
+jackson, william
+CSCI E-15 Assignment2, part3*/
+
+#header {
+	width: 100%;
+	margin-left: 5%;
+}
+
+#mainMenu {
+	margin-left: 2.5%;
+}
+
+.inlineList {
+	display: inline;
+	margin: 0.5%;
+}
+
+#sideMenu {
+	float: left;
+	font-size: xx-small;
+	width: 10%;
+	background-color: yellow;
+}
+
+#breadcrumbs {
+	display: inline;
+	clear: right;
+}
+
+#content {
+	width: 60%;
+	float: right;
+	background-color: aqua;
+}

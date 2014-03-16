@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>How Distance Education Works - Harvard University Extension School</title>
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How Distance Education Works - Harvard University Extension School</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
 <!-- 
@@ -10,69 +23,89 @@ This is just a starting point.  Use the header, footer, three navigation modes, 
 -->
 
 <!-- masthead -->
-<h1>Harvard Extension School</h1>
+<header id="header"><img src="images/masthead.png" alt="Harvard University Extention School"></header>
 <!-- end masthead -->
 
 
 <!-- site navigation -->
-<ul>
-<li><a href="#">About Us</a></li>
-<li><a href="#">Courses</a></li>
-<li><a href="#">Registration</a></li>
-<li><a href="#">Degrees &amp; Certificates</a></li>
-<li class="youarehere"><a href="#">Distance Education</a></li>
-<li><a href="#">Exams, Grades, &amp; Policies</a></li>
-<li><a href="#">Resources</a></li>
-<li><a href="#">News Hub</a></li>
-</ul>
+<div id="mainMenu">
+	<ul>
+		<li class="inlineList"><a href="#">About Us</a></li>
+		<li class="inlineList"><a href="#">Courses</a></li>
+		<li class="inlineList"><a href="#">Registration</a></li>
+		<li class="inlineList"><a href="#">Degrees &amp; Certificates</a></li>
+		<li id="youarehere" class="inlineList"><a href="#">Distance Education</a></li>
+		<li class="inlineList"><a href="#">Exams, Grades, &amp; Policies</a></li>
+		<li class="inlineList"><a href="#">Resources</a></li>
+		<li class="inlineList"><a href="#">News Hub</a></li>
+	</ul>
+</div>
 <!-- end site navigation -->
-
+<hr />
 <!-- category navigation -->
-<ul>
-<li>Distance Education
-<ul><li><a href="#">Online Course Offerings</a></li>
-<li><a href="#" class="youarehere">How Distance Education Works</a>
-<ul>
-<li><a href="#">Online Video Courses</a></li>
-<li><a href="#">Web-Conference Courses</a></li>
-<li><a href="#">Academic Policy and Exam Proctoring</a></li>
-</ul>
-</li>
-<li><a href="#">Video: The Distance Education Experience</a></li>
-<li><a href="#">Frequently Asked Questions</a></li>
-<li><a href="#">Need Help?</a></li>
-</ul>
-</li>
-</ul>
+<div id="sideMenu">
+	<ul>
+		<li>Distance Education
+			<ul><li><a href="#">Online Course Offerings</a></li>
+				<li><a href="#" id="youarehere">How Distance Education Works</a>
+					<ul>
+						<li><a href="#">Online Video Courses</a></li>
+						<li><a href="#">Web-Conference Courses</a></li>
+						<li><a href="#">Academic Policy and Exam Proctoring</a></li>
+						</ul>
+				</li>
+				<li><a href="#">Video: The Distance Education Experience</a></li>
+				<li><a href="#">Frequently Asked Questions</a></li>
+				<li><a href="#">Need Help?</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>
 <!-- end category navigation -->
 
 <!-- breadcrumb navigation -->
-<ul><li><a href="#">Home</a><ul><li><a href="#">Distance Education</a><ul><li>How Distance Education Works</li></ul></li></ul></li></ul>
+<div id="breadcrumbs">
+	<ul>
+		<li><a href="#">Home</a>
+			<ul>
+				<li><a href="#">Distance Education</a>
+					<ul>
+						<li>How Distance Education Works</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>
 <!-- end breadcrumb navigation -->
 
 
-<h2>How Distance Education Works</h2>
-<p>Distance education classes are either in an online video or live web-conference format. Both options are semester-long with scheduled assignments and exams, but online video and live web-conference courses differ in their presentation and technical requirements.
-</p>
-<h3>Online video courses</h3>
-<p>
-These online courses feature videos of faculty lecturing on campus, and you watch the videos at your convenience. In some cases, class meetings on-campus are broadcast live. Check course syllabi or websites to see if you can participate live during class meeting times and to learn if live participation is required. You interact with classmates and faculty via online media. 
-</p>
-<p>Learn more about the <a href="#">technical requirements</a> for online video courses.</p> 
+<article id="content">
+	<h2>How Distance Education Works</h2>
+		<p>Distance education classes are either in an online video or live web-conference format. Both options are semester-long with scheduled assignments and exams, but 		online video and live web-conference courses differ in their presentation and technical requirements.
+		</p>
+	<h3>Online video courses</h3>
+		<p>
+		These online courses feature videos of faculty lecturing on campus, and you watch the videos at your convenience. In some cases, class meetings on-campus are broadcast 		live. Check course syllabi or websites to see if you can participate live during class meeting times and to learn if live participation is required. You interact with		classmates and faculty via online media. 
+		</p>
+		<p>Learn more about the <a href="#">technical requirements</a> for online video courses.</p> 
 
-<h4>Currently enrolled?</h4>
-<p><strong>To watch your videos,</strong> find a link to your course website in the online courses list.</p>
+	<h4>Currently enrolled?</h4>
+		<p><strong>To watch your videos,</strong> find a link to your course website in the online courses list.</p>
 
-<h3>Web-conference courses</h3>
-<p>You participate in your virtual classroom using web-conference software at the scheduled meeting time each week—much as you would attend a course on campus. In most courses, there are no videos; everything is live. You communicate with the instructor and other students by chat or voice technology.</p>
+	<h3>Web-conference courses</h3>
+		<p>You participate in your virtual classroom using web-conference software at the scheduled meeting time each week—much as you would attend a course on campus. In most 		courses, there are no videos; everything is live. You communicate with the instructor and other students by chat or voice technology.
+		</p>
 
-<p>Learn more about the <a href="#">technical requirements</a> for live web-conference courses. </p>
+		<p>Learn more about the <a href="#">technical requirements</a> for live web-conference courses.</p>
 
-<h4>Currently enrolled?</h4>
-<p><strong>Find the link to your virtual classroom</strong> by logging into online services a few days before classes begin.</p>
-
-<hr />
+	<h4>Currently enrolled?</h4>
+		<p><strong>Find the link to your virtual classroom</strong> by logging into online services a few days before classes begin.</p>
+</article>
 <p>Harvard Extension School<br/>51 Brattle Street<br/>Cambridge, MA 02138<br/>617) 495-4024</p>
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
