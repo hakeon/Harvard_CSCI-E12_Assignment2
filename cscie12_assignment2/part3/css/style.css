@@ -23,8 +23,8 @@ body {
 	margin-left: 10%;
 }
 
-a:link, a:visited, a:hover, a:active {
-	color: rgba(0,0,0,0.62);
+a:link {
+	color: rgba(100,31,31,0.86);
 }
 
 .inlineList {
@@ -40,8 +40,8 @@ hr {
 	float: left;
 	width: 15%;
 	height: 80%;
-	margin-bottom: 15%;
-	color: rgba(0,0,0,0.62);
+	margin-bottom: 20%;
+	color: rgba(100,31,31,0.86);
 }
 
 .sideNav {
@@ -56,8 +56,8 @@ hr {
 	margin-left: 5%;
 }
 
-#youAreHere {
-	color: #692626;
+.youAreHere {
+	font-weight: bold;
 	text-decoration: underline;
 }
 
