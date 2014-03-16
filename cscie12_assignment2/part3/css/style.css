@@ -10,6 +10,7 @@ body {
 #header {
 	float: left;
 	width: 90%;
+	margin-top: 0;
 	margin-left: 2.5%;
 	background-color: #100f0f;
 }
@@ -17,6 +18,7 @@ body {
 #mainMenu {
 	width: 85%;
 	float: left;
+	clear: left;
 	margin-left: 10%;
 }
 
@@ -26,7 +28,7 @@ body {
 }
 
 hr {
-	width: 75%
+	width: 75%;
 }
 
 #sideMenu {
@@ -35,12 +37,16 @@ hr {
 	width: 15%;
 	height: 80%;
 	margin-bottom: 22%;
-	background-color: yellow;
+}
+
+#sideNav {
+	list-style-type: none;
 }
 
 #breadcrumbs {
 	display: inline;
-	background-color: green;
+	float: left;
+	margin-left: 5%;
 }
 
 #content {
@@ -48,7 +54,6 @@ hr {
 	float: right;
 	margin-left: 0;
 	margin-right: 8%;
-	background-color: aqua;
 }
 
 #address {
@@ -57,5 +62,5 @@ hr {
 	width: 15%;
 	height: 10%;
 	margin-bottom: 0;
-	background-color: gray
+	margin-left: 1%;
 }

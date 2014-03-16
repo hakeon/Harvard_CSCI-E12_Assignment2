@@ -41,14 +41,14 @@ This is just a starting point.  Use the header, footer, three navigation modes, 
 	</ul>
 </div>
 <!-- end site navigation -->
-<hr />
+<hr/>
 <!-- category navigation -->
 <div id="sideMenu">
-	<ul>
+	<ul id="sideNav">
 		<li>Distance Education
-			<ul><li><a href="#">Online Course Offerings</a></li>
+			<ul id="sideNav"><li><a href="#">Online Course Offerings</a></li>
 				<li><a href="#" id="youarehere">How Distance Education Works</a>
-					<ul>
+					<ul id="sideNav">
 						<li><a href="#">Online Video Courses</a></li>
 						<li><a href="#">Web-Conference Courses</a></li>
 						<li><a href="#">Academic Policy and Exam Proctoring</a></li>
@@ -65,17 +65,9 @@ This is just a starting point.  Use the header, footer, three navigation modes, 
 
 <!-- breadcrumb navigation -->
 <div id="breadcrumbs">
-	<ul>
-		<li><a href="#">Home</a>
-			<ul>
-				<li><a href="#">Distance Education</a>
-					<ul>
-						<li>How Distance Education Works</li>
-					</ul>
-				</li>
-			</ul>
-		</li>
-	</ul>
+	<a href="#">Home</a> >
+	<a href="#">Distance Education</a> >
+	<a href="#" id="youarehere">How Distance Education Works</a>
 </div>
 <!-- end breadcrumb navigation -->
 
@@ -102,7 +94,9 @@ This is just a starting point.  Use the header, footer, three navigation modes, 
 	<h4>Currently enrolled?</h4>
 		<p><strong>Find the link to your virtual classroom</strong> by logging into online services a few days before classes begin.</p>
 </article>
+<aside id="address">
 <p>Harvard Extension School<br/>51 Brattle Street<br/>Cambridge, MA 02138<br/>617) 495-4024</p>
+</aside>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
