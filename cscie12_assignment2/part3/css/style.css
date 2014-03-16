@@ -5,6 +5,7 @@ CSCI E-15 Assignment2, part3*/
 body {
 	width: 100%;
 	height: 100%;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
 }
 
 #header {
@@ -22,6 +23,10 @@ body {
 	margin-left: 10%;
 }
 
+a:link, a:visited, a:hover, a:active {
+	color: rgba(0,0,0,0.62);
+}
+
 .inlineList {
 	display: inline;
 	margin: 0.5%;
@@ -33,14 +38,16 @@ hr {
 
 #sideMenu {
 	float: left;
-	font-size: xx-small;
 	width: 15%;
 	height: 80%;
-	margin-bottom: 22%;
+	margin-bottom: 15%;
+	color: rgba(0,0,0,0.62);
 }
 
-#sideNav {
+.sideNav {
 	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 10%;
 }
 
 #breadcrumbs {
@@ -49,11 +56,25 @@ hr {
 	margin-left: 5%;
 }
 
+#youAreHere {
+	color: #692626;
+	text-decoration: underline;
+}
+
 #content {
 	width: 75%;
 	float: right;
 	margin-left: 0;
 	margin-right: 8%;
+	padding-left: 5%;
+}
+
+.contentFormat {
+	padding-bottom: 2.5%;
+}
+
+p {
+	color: rgba(0,0,0,0.62);
 }
 
 #address {
@@ -63,4 +84,5 @@ hr {
 	height: 10%;
 	margin-bottom: 0;
 	margin-left: 1%;
+	color: rgba(0,0,0,0.5);
 }
