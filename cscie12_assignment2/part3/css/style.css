@@ -9,11 +9,7 @@ body {
 }
 
 #header {
-	float: left;
-	width: 90%;
-	margin-top: 0;
-	margin-left: 2.5%;
-	background-color: #100f0f;
+	margin-left: 13%;
 }
 
 #mainMenu {
